@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_layout" android:background="@drawable/titlebg_shap" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/btn_mback" android:background="@drawable/mm_title_back_normal2" android:paddingLeft="20.0dip" android:paddingRight="15.0dip" android:layout_width="80.0dip" android:layout_height="30.0dip" android:text="@string/back_name" android:layout_centerVertical="true" android:onClick="onClickBack" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/textView_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scale_detecting" android:layout_alignBaseline="@id/btn_mback" android:layout_alignBottom="@id/btn_mback" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.lefu.es.system.SearchDevicesView android:id="@id/search_device_view" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_layout" />
+    <com.lefu.es.progressbar.NumberProgressBar android:id="@id/numberbar1" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" custom:progress_current="0" style="@style/NumberProgressBar_Default" />
+</RelativeLayout>

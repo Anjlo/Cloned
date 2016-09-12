@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/customDialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/rb_setPhoto1" android:background="@drawable/select_bk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/user_photo_take" android:layout_alignParentTop="true" />
+    <Button android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/rb_setPhoto2" android:background="@drawable/select_bk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/user_photo_album" android:layout_below="@id/rb_setPhoto1" />
+    <Button android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/rb_setPhoto3" android:background="@drawable/select_bk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/Cancle_btn" android:layout_below="@id/rb_setPhoto2" />
+</RelativeLayout>

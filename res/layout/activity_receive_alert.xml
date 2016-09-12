@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/dialog_bg" android:layout_width="200.0dip" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/textView1" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/newdate_alter" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/saveorno_title" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:weightSum="10.0">
+            <Button android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/cancle_datacbtn" android:background="@drawable/dialog_btn_bg" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Cancle_btn" android:layout_weight="5.0" android:onClick="saveOrCancle" />
+            <Button android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/save_databtn" android:background="@drawable/dialog_btn_bg" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/yes_btn" android:layout_weight="5.0" android:onClick="saveOrCancle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    </LinearLayout>
+</RelativeLayout>

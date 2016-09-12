@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/datepicker" android:background="@drawable/datepicker_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip">
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/ig_solar" android:background="@drawable/whtbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="公历" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <Button android:textSize="16.0sp" android:textColor="@color/orange" android:id="@id/ig_lunar" android:background="@drawable/orgbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="农历" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.lefu.es.wheelview.WheelView android:id="@id/month" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="5.0" />
+            <com.lefu.es.wheelview.WheelView android:id="@id/day" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="5.0" />
+            <com.lefu.es.wheelview.WheelView android:layout_gravity="center_vertical" android:id="@id/year" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="5.0" />
+            <com.lefu.es.wheelview.WheelView android:id="@id/hours" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="3.0" />
+            <com.lefu.es.wheelview.WheelView android:id="@id/min" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="3.0" />
+        </LinearLayout>
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btn_datetime_sure" android:background="@drawable/add_brith_baocun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="10.0dip" android:text="Done" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+</LinearLayout>

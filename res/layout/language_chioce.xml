@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/customDialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/white" android:id="@id/chinesetw_button" android:background="@drawable/select_btn_shap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/langue_chinese_titie" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <Button android:textColor="@color/white" android:id="@id/english_button" android:background="@drawable/select_btn_shap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/langue_english_titie" android:layout_below="@id/chinesetw_button" android:layout_alignParentLeft="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chart_offset_y">10.0px</dimen>
+    <dimen name="chart_offset_x">15.0px</dimen>
+    <dimen name="chart_offset_y2">15.0px</dimen>
+    <dimen name="margin_land">200.0dip</dimen>
+</resources>

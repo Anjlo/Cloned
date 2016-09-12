@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_layout" android:background="@drawable/edit_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.0">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/useredit_textView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/user_list_edit" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textColor="@color/darkgray" android:id="@id/back_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/back_name_mark" android:layout_alignBottom="@id/useredit_textView" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/user_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:divider="@drawable/xuxian" android:layout_weight="90.0" android:fadeScrollbars="true" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/addphoto_imageView" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/add_bg" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <attr name="src" format="reference" />
+    <attr name="progress_current" format="integer" />
+    <attr name="progress_max" format="integer" />
+    <attr name="progress_unreached_color" format="color" />
+    <attr name="progress_reached_color" format="color" />
+    <attr name="progress_reached_bar_height" format="dimension" />
+    <attr name="progress_unreached_bar_height" format="dimension" />
+    <attr name="progress_text_size" format="dimension" />
+    <attr name="progress_text_color" format="color" />
+    <attr name="progress_text_offset" format="dimension" />
+    <attr name="progress_text_visibility">
+        <enum name="visible" value="0" />
+        <enum name="invisible" value="1" />
+    </attr>
+    <attr name="numberProgressBarStyle" format="reference" />
+    <attr name="completionHighlightColor" format="reference|color" />
+    <attr name="completionTextColor" format="reference|color" />
+    <attr name="completionTextSize" format="dimension" />
+    <attr name="completionIgnoreCase" format="boolean" />
+    <attr name="adapterViewBackground" format="reference|color" />
+    <attr name="headerBackground" format="reference|color" />
+    <attr name="headerTextColor" format="color" />
+    <attr name="mode">
+        <flag name="pullDownFromTop" value="0x00000001" />
+        <flag name="pullUpFromBottom" value="0x00000002" />
+        <flag name="both" value="0x00000003" />
+    </attr>
+</resources>

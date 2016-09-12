@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">128.0dip</dimen>
+    <dimen name="chart_offset_y">20.0px</dimen>
+    <dimen name="chart_offset_x">38.0px</dimen>
+    <dimen name="chart_offset_x2">40.0px</dimen>
+    <dimen name="chart_offset_y2">15.0px</dimen>
+    <dimen name="margin_land">300.0dip</dimen>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+    <RelativeLayout android:id="@id/scaletype_choice" android:background="@drawable/scallist_corners_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="80.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TableLayout android:background="@drawable/rounded_corners_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="80.0" android:stretchColumns="0,1" android:shrinkColumns="1,2">
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_weight_title" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/Weightkg_cloun" />
+                    <com.lefu.es.view.MyTextView2 android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_weight" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_weight" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/bone_cloun" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_bone" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_bone" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/bodyfat_cloun" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_bodyfat" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_bf" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/muscle_cloun" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_muscle" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_mm" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/bodywater_cloun" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_bodywater" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_bw" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/visceral_cloun" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_visceral" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_vf" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/bmi_cloun" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_bmi" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_bmi" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_weight="10.0">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:text="@string/bmr_cloun" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvdetail_bmr" android:layout_height="fill_parent" android:text="" />
+                    <ImageView android:id="@id/iv_bmr" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/iv_arrow" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+</LinearLayout>

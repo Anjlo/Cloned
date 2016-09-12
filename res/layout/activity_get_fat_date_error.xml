@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/dialog_bg" android:layout_width="200.0dip" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/waiting_alert_layout_2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/textView1" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/error_title" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/textView1" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/title_activity_get_fat_date_error" />
+    </LinearLayout>
+</RelativeLayout>

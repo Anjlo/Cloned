@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="chart_offset_y">15.0px</dimen>
+    <dimen name="chart_offset_x">25.0px</dimen>
+    <dimen name="chart_offset_x2">40.0px</dimen>
+    <dimen name="chart_offset_y2">20.0px</dimen>
+    <dimen name="main_scale_btn_size">80.0dip</dimen>
+    <dimen name="main_scale_btn_pad">120.0dip</dimen>
+    <dimen name="dialog_four_items">480.0dip</dimen>
+</resources>
